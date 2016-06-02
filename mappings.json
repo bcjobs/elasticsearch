@@ -7,6 +7,9 @@
     },
     "job": {
       "properties": {
+        "career_level": {
+          "type": "integer"
+        },
         "category": {
           "properties": {
             "category_id": {
