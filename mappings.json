@@ -40,7 +40,8 @@
               "type": "string"
             },
             "employer_type": {
-              "type": "string"
+              "type": "string",
+              "index": "not_analyzed"
             },
             "industry": {
               "properties": {
