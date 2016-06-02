@@ -20,6 +20,11 @@
         {
           "term": {"employer.employer_type": "Employer"}
         },
+        {
+          "terms": {
+            "position_type.position_type_id": [1,2]
+         }
+       },
        {"missing": {"field": "employer.featured_website"} },
        {
          "range": {
