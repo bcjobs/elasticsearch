@@ -7,9 +7,6 @@
     },
     "job": {
       "properties": {
-        "active": {
-          "type": "boolean"
-        },
         "category": {
           "properties": {
             "category_id": {
