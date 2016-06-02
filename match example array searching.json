@@ -1,0 +1,8 @@
+{
+  "match": {
+    "position_type": {
+      "query" : "Full Time",
+      "operator": "or"
+    }
+ }
+},

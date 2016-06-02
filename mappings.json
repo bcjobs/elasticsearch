@@ -1,0 +1,101 @@
+{
+  "mappings": {
+    "_default_": {
+      "_all": {
+        "enabled": false
+      }
+    },
+    "job": {
+      "properties": {
+        "active": {
+          "type": "boolean"
+        },
+        "category": {
+          "properties": {
+            "category_id": {
+              "type": "integer"
+            },
+            "category_name": {
+              "type": "string",
+              "index": "not_analyzed"
+            }
+          }
+        },
+        "close_date": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss"
+        },
+        "company_confidential": {
+          "type": "boolean"
+        },
+        "description": {
+          "type": "string"
+        },
+        "employer": {
+          "properties": {
+            "employer_id": {
+              "type": "integer"
+            },
+            "company_name": {
+              "type": "string"
+            },
+            "employer_type": {
+              "type": "string"
+            },
+            "industry": {
+              "properties": {
+                "industry_id": {
+                  "type": "integer"
+                },
+                "industry_name": {
+                  "type": "string",
+                  "index": "not_analyzed"
+                }
+              }
+            },
+            "company_size": {
+              "type": "integer"
+            },
+            "featured_website": {
+              "type": "integer"
+            }
+          }
+        },
+        "location": {
+          "type": "geo_point"
+        },
+        "location_name": {
+          "type": "string"
+        },
+        "member_status_id": {
+          "type": "integer"
+        },
+        "position_type": {
+          "properties": {
+            "position_type_id": {
+              "type": "integer"
+            },
+            "position_type_name": {
+              "type": "string",
+              "index": "not_analyzed"
+            }
+          }
+        },
+        "province_code": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "publish_date": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss"
+        },
+        "title": {
+          "type": "string"
+        },
+        "training_position": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

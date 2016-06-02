@@ -1,0 +1,44 @@
+{
+  "query": {
+    "bool": {
+      "filter": [
+        {
+          "geo_distance": {
+            "distance": "25km",
+            "location": {
+              "lat":  49.2077138,
+              "lon": -123.140345
+            }
+          }
+        },
+        {
+          "term": {"company_confidential": false}
+        },
+        {
+          "term": {"province_code": "CA-BC"}
+        },
+        {
+          "term": {"employer.employer_type": "Employer"}
+        },
+       {"missing": {"field": "employer.featured_website"} },
+       {
+         "range": {
+           "publish_date": {
+             "gte" : "1995-01-12 12:12:12"
+           }
+         }
+       }
+      ],
+      "must": [
+        {
+          "query_string": {
+            "query":       "*",
+            "fields":      [ "position_type.position_type_name", "description^1.4", "employer.company_name^1.6", "location_name^1.2", "title^2" ],
+            "default_operator": "and",
+            "minimum_should_match": "50%"
+          }
+        }
+      ]
+    }
+  }
+}

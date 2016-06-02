@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "stemming_english": {
+          "type": "english",
+          "stopwords": [
+            "a", "an", "and", "are", "as", "at", "be", "but", "by", "for",
+            "if", "in", "into", "is", "it", "of", "on", "or", "such", "that",
+            "the", "their", "then", "there", "these", "they", "this", "to",
+            "was", "will", "with"
+          ]
+        },
+        "synonym": {
+            "tokenizer": "whitespace",
+            "filter": ["synonym"]
+        }
+      },
+      "filter":{
+        "synonym": {
+          "type": "synonym",
+          "format" : "wordnet",
+          "synonyms_path": "analysis/wn_s.pl"
+        }
+      }
+    }
+  }
+}
