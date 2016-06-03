@@ -68,7 +68,7 @@
         "location_name": {
           "type": "string"
         },
-        "member_status_id": {
+        "member_status": {
           "type": "integer"
         },
         "position_type": {

@@ -22,7 +22,17 @@
         },
         {
           "terms": {
-            "position_type.position_type_id": [1,2]
+            "position_type.position_type_id": [1,2,3]
+         }
+       },
+        {
+          "terms": {
+            "employer.industry.industry_id": [1,34,30]
+         }
+       },
+        {
+          "terms": {
+            "career_level": [1,4]
          }
        },
        {"missing": {"field": "employer.featured_website"} },
