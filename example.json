@@ -1,0 +1,238 @@
+{
+  "data":[
+    {
+      "id":488550,
+      "title":"Registered Nurse - Masset (full Time)",
+      "locations":[
+        {
+          "id":581,
+          "description":"Masset, BC",
+          "name":"Masset",
+          "type":"Town"
+        }
+      ],
+      "trainingPosition":0,
+      "employer":{
+        "id":14587,
+        "name":"Northern Health",
+        "featured":true
+      },
+      "referenceId":"05247755",
+      "slug":"registered-nurse-masset-full-time-masset",
+      "url":"\/jobs\/registered-nurse-masset-full-time-masset-488550",
+      "publishDate":"2016-06-03"
+    },
+    {
+      "id":488549,
+      "title":"Staff Physical Therapist - Early Intervention - Prince Rupert (part Time)",
+      "locations":[
+        {
+          "id":319,
+          "description":"Prince Rupert, BC",
+          "name":"Prince Rupert",
+          "type":"Town"
+        }
+      ],
+      "trainingPosition":0,
+      "employer":{
+        "id":14587,
+        "name":"Northern Health",
+        "featured":true
+      },
+      "referenceId":"05234844",
+      "slug":"staff-physical-therapist-early-intervention-prince-rupert-part-time-prince-rupert",
+      "url":"\/jobs\/staff-physical-therapist-early-intervention-prince-rupert-part-time-prince-rupert-488549",
+      "publishDate":"2016-06-03"
+    },
+    {
+      "id":432368,
+      "title":"Sr. Executive Assistant",
+      "locations":[
+        {
+          "id":156,
+          "description":"Vancouver, BC",
+          "name":"Vancouver",
+          "type":"Town"
+        }
+      ],
+      "trainingPosition":0,
+      "employer":{
+        "id":5075,
+        "name":"Canfor",
+        "featured":true
+      },
+      "referenceId":"988",
+      "slug":"sr-executive-assistant-vancouver",
+      "url":"\/jobs\/sr-executive-assistant-vancouver-432368",
+      "publishDate":"2016-06-03"
+    },
+    {
+      "id":486258,
+      "title":"Production Employee",
+      "locations":[
+        {
+          "id":308,
+          "description":"Chetwynd, BC",
+          "name":"Chetwynd",
+          "type":"Town"
+        }
+      ],
+      "trainingPosition":0,
+      "employer":{
+        "id":5075,
+        "name":"Canfor",
+        "featured":true
+      },
+      "referenceId":"1124",
+      "slug":"production-employee-chetwynd",
+      "url":"\/jobs\/production-employee-chetwynd-486258",
+      "publishDate":"2016-06-03"
+    },
+    {
+      "id":481199,
+      "title":"Production Employee - Solid Wood",
+      "locations":[
+        {
+          "id":406,
+          "description":"Vanderhoof, BC",
+          "name":"Vanderhoof",
+          "type":"Town"
+        }
+      ],
+      "trainingPosition":0,
+      "employer":{
+        "id":5075,
+        "name":"Canfor",
+        "featured":true
+      },
+      "referenceId":"1104",
+      "slug":"production-employee-solid-wood-vanderhoof",
+      "url":"\/jobs\/production-employee-solid-wood-vanderhoof-481199",
+      "publishDate":"2016-06-03"
+    },
+    {
+      "id":486854,
+      "title":"RARE Corporate Commercial\/Real Estate LAA",
+      "locations":[
+        {
+          "id":172,
+          "description":"Richmond, BC",
+          "name":"Richmond",
+          "type":"Town"
+        }
+      ],
+      "trainingPosition":0,
+      "employer":{
+        "id":973,
+        "name":"ARLYN RECRUITING",
+        "featured":false
+      },
+      "referenceId":"270",
+      "slug":"rare-corporate-commercial-real-estate-laa-richmond",
+      "url":"\/jobs\/rare-corporate-commercial-real-estate-laa-richmond-486854",
+      "publishDate":"2016-06-03"
+    },
+    {
+      "id":486878,
+      "title":"LAA - Litigation Service Department",
+      "locations":[
+        {
+          "id":156,
+          "description":"Vancouver, BC",
+          "name":"Vancouver",
+          "type":"Town"
+        }
+      ],
+      "trainingPosition":0,
+      "employer":{
+        "id":973,
+        "name":"ARLYN RECRUITING",
+        "featured":false
+      },
+      "referenceId":"271",
+      "slug":"laa-litigation-service-department-vancouver",
+      "url":"\/jobs\/laa-litigation-service-department-vancouver-486878",
+      "publishDate":"2016-06-03"
+    },
+    {
+      "id":486882,
+      "title":"ICBC Paralegal",
+      "locations":[
+        {
+          "id":156,
+          "description":"Vancouver, BC",
+          "name":"Vancouver",
+          "type":"Town"
+        }
+      ],
+      "trainingPosition":0,
+      "employer":{
+        "id":973,
+        "name":"ARLYN RECRUITING",
+        "featured":false
+      },
+      "referenceId":"272",
+      "slug":"icbc-paralegal-vancouver",
+      "url":"\/jobs\/icbc-paralegal-vancouver-486882",
+      "publishDate":"2016-06-03"
+    },
+    {
+      "id":501122,
+      "title":"Strata Property Manager",
+      "locations":[
+        {
+          "id":172,
+          "description":"Richmond, BC",
+          "name":"Richmond",
+          "type":"Town"
+        },
+        {
+          "id":156,
+          "description":"Vancouver, BC",
+          "name":"Vancouver",
+          "type":"Town"
+        }
+      ],
+      "trainingPosition":0,
+      "employer":{
+        "id":21025,
+        "name":"Korecki Real Estate Services Inc.",
+        "featured":true
+      },
+      "referenceId":"",
+      "slug":"strata-property-manager-richmond-vancouver",
+      "url":"\/jobs\/strata-property-manager-richmond-vancouver-501122",
+      "publishDate":"2016-06-03"
+    },
+    {
+      "id":455855,
+      "title":"Digital Marketing Manager",
+      "locations":[
+        {
+          "id":156,
+          "description":"Vancouver, BC",
+          "name":"Vancouver",
+          "type":"Town"
+        }
+      ],
+      "trainingPosition":0,
+      "employer":{
+        "id":944,
+        "name":"Hunt Personnel\/Temporarily Yours",
+        "featured":false
+      },
+      "referenceId":"",
+      "slug":"digital-marketing-manager-vancouver",
+      "url":"\/jobs\/digital-marketing-manager-vancouver-455855",
+      "publishDate":"2016-06-03"
+    }
+  ],
+  "paging":{
+    "total":4020,
+    "previous":"https:\/\/www.bcjobs.ca\/rest\/v1.0\/public\/jobs?pageSize=10&page=1",
+    "page":2,
+    "pages":402,
+    "next":"https:\/\/www.bcjobs.ca\/rest\/v1.0\/public\/jobs?pageSize=10&page=3",
+    "pageSize":10
+  }
+}
