@@ -3,19 +3,30 @@
     "bool": {
       "filter": [
         {
-          "geo_distance": {
-            "distance": "10km",
-            "location.location_point": {
-              "lat":  49.2077138,
-              "lon": -123.140345
+          "nested": {
+            "path": "location",
+            "query":{
+              "bool": {
+                "filter": [
+                  {
+                    "geo_distance": {
+                      "distance": "10km",
+                      "location.location_point": {
+                        "lat":  49.2077138,
+                        "lon": -123.140345
+                      }
+                    }
+                  },
+                  {
+                    "term": {"location.province_code": "CA-BC"}
+                  }
+                ]
+              }
             }
           }
         },
         {
           "term": {"company_confidential": false}
-        },
-        {
-          "term": {"province_code": "CA-BC"}
         },
         {
           "term": {"employer.employer_type": "Employer"}
